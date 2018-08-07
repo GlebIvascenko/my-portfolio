@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_html",
+  "version": "1.0.0",
+  "description": "Responsive Web Developer Portoflio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o src/css/ --recursive"
+  },
+  "author": "Gleb Ivascenko",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
