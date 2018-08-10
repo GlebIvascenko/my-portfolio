@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Responsive Web Developer Portoflio",
   "main": "index.js",
+  "homepage": "https://GlebIvascenko.github.io/my-portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o src/css/ --recursive"
+    "sass": "node-sass -w scss/ -o src/css/ --recursive",
+    "deploy": "gh-pages -d src"
   },
   "author": "Gleb Ivascenko",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2",
     "vide": "^0.5.1"
   }
