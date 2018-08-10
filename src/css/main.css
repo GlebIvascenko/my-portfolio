@@ -54,7 +54,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/img/121.jpg");
+      background: url("../img/121.jpg");
       border-radius: 50%;
       border: solid 3px #faa404; }
   .menu .nav-item {
@@ -100,7 +100,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-image {
-    background: url(/img/pattern.jpg);
+    background: url(../img/pattern.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-image:after {
@@ -266,7 +266,7 @@ main {
     height: 25vh;
     transform: translate3d(-100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("/img/121.jpg");
+      background: url("../img/121.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
