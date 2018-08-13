@@ -31,3 +31,11 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+//force document to start at the top when the pag is reloaded
+window.onbeforeunload = function() {
+  window.scrollTo(0, 0);
+};
+/*$(window).on("beforeunload", function() {
+  $(window).scrollTop(0);
+});*/
